@@ -30,7 +30,8 @@ namespace EducaTours
             bundles.Add(new ScriptBundle("~/bundles/angular-app").Include(
                       "~/app/app.module.js",
                       "~/app/app.config.js",
-                      "~/app/home/home.controller.js"));
+                      "~/app/home/home.controller.js",
+                      "~/app/contact/contact.controller.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/theme-scripts").Include(
                       "~/Scripts/owl.carousel.min.js",

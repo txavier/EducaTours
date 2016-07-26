@@ -214,6 +214,8 @@
   <ItemGroup>
     <Content Include="app\app.config.js" />
     <Content Include="app\app.module.js" />
+    <Content Include="app\contact\contact.controller.js" />
+    <Content Include="app\contact\contact.html" />
     <Content Include="app\home\home.controller.js" />
     <Content Include="app\home\home.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />

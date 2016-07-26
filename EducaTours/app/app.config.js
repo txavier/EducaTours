@@ -14,6 +14,11 @@
                 controller: 'homeController',
                 controllerAs: 'vm'
             })
+            .when('/contact', {
+                  templateUrl: 'app/contact/contact.html',
+                  controller: 'contactController',
+                  controllerAs: 'vm'
+            })
             .otherwise({ redirectTo: 'home' });
     }
 
