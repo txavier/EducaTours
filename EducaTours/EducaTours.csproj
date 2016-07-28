@@ -198,6 +198,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\EmailController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -205,6 +206,7 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\EmailInformation.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
@@ -218,6 +220,7 @@
     <Content Include="app\contact\contact.html" />
     <Content Include="app\home\home.controller.js" />
     <Content Include="app\home\home.html" />
+    <Content Include="app\services\data.service.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\imports.css" />
@@ -446,6 +449,22 @@
     <Content Include="wwwroot\js\ie10-viewport-bug-workaround.js" />
     <Content Include="wwwroot\js\owl.carousel.min.js" />
     <Content Include="wwwroot\js\respond.min.js" />
+    <Content Include="wwwroot\lib\angular-loading-bar\build\loading-bar.css" />
+    <Content Include="wwwroot\lib\angular-loading-bar\build\loading-bar.js" />
+    <Content Include="wwwroot\lib\angular-loading-bar\build\loading-bar.min.css" />
+    <Content Include="wwwroot\lib\angular-loading-bar\build\loading-bar.min.js" />
+    <Content Include="wwwroot\lib\angular-loading-bar\Gruntfile.js" />
+    <Content Include="wwwroot\lib\angular-loading-bar\index.js" />
+    <Content Include="wwwroot\lib\angular-loading-bar\src\loading-bar.css" />
+    <Content Include="wwwroot\lib\angular-loading-bar\src\loading-bar.js" />
+    <Content Include="wwwroot\lib\angular-route\angular-route.js" />
+    <Content Include="wwwroot\lib\angular-route\angular-route.min.js" />
+    <Content Include="wwwroot\lib\angular-route\index.js" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\index.js" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\toaster.css" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\toaster.js" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\toaster.min.css" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\toaster.min.js" />
     <Content Include="wwwroot\lib\angular\angular-csp.css" />
     <Content Include="wwwroot\lib\angular\angular.js" />
     <Content Include="wwwroot\lib\angular\angular.min.js" />
@@ -1102,7 +1121,6 @@
     <Content Include="wwwroot\lib\respond\src\respond.js" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\services\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
@@ -1352,6 +1370,23 @@
     <Content Include="wwwroot\less\modifiers.less" />
     <Content Include="wwwroot\less\variables.less" />
     <Content Include="wwwroot\less\wordpress.less" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\.bower.json" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\bower.json" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\LICENSE" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\package.json" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\README.md" />
+    <Content Include="wwwroot\lib\AngularJS-Toaster\toaster.scss" />
+    <Content Include="wwwroot\lib\angular-route\.bower.json" />
+    <Content Include="wwwroot\lib\angular-route\angular-route.min.js.map" />
+    <Content Include="wwwroot\lib\angular-route\bower.json" />
+    <Content Include="wwwroot\lib\angular-route\package.json" />
+    <Content Include="wwwroot\lib\angular-route\README.md" />
+    <Content Include="wwwroot\lib\angular-loading-bar\.bower.json" />
+    <Content Include="wwwroot\lib\angular-loading-bar\bower.json" />
+    <Content Include="wwwroot\lib\angular-loading-bar\CHANGELOG.md" />
+    <Content Include="wwwroot\lib\angular-loading-bar\LICENSE" />
+    <Content Include="wwwroot\lib\angular-loading-bar\package.json" />
+    <Content Include="wwwroot\lib\angular-loading-bar\README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

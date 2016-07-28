@@ -22,14 +22,18 @@ namespace EducaTours
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                       "~/wwwroot/lib/angular/angular.min.js",
-                      "~/wwwroot/lib/angular-route/angular-route.min.js"));
+                      "~/wwwroot/lib/angular-route/angular-route.min.js",
+                      "~/wwwroot/lib/angular-animate/angular-animate.min.js"
+                      ));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-third-party").Include(
-                      "~/wwwroot/lib/angular-loading-bar/build/loading-bar.min.js"));
+                      "~/wwwroot/lib/angular-loading-bar/build/loading-bar.min.js",
+                      "~/wwwroot/lib/AngularJS-Toaster/toaster.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular-app").Include(
                       "~/app/app.module.js",
                       "~/app/app.config.js",
+                      "~/app/services/data.service.js",
                       "~/app/home/home.controller.js",
                       "~/app/contact/contact.controller.js"));
 
@@ -38,6 +42,7 @@ namespace EducaTours
                       "~/Scripts/custom.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/wwwroot/lib/AngularJS-Toaster/toaster.css",
                       "~/Content/bootstrap.css",
                       "~/Content/imports.css",
                       "~/Content/owl-carousel.css",

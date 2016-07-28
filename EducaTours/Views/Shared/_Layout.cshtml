@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>EducaTours! Aruba Tour Bus Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/wwwroot/lib/AngularJS-Toaster/toaster.css" media="screen" />
     <link rel="stylesheet" href="/wwwroot/css/imports.css" media="screen">
     <link rel="stylesheet" href="/wwwroot/css/bootstrap.min.css" media="screen">
     <link rel="stylesheet" href="/wwwroot/css/owl-carousel.css" media="screen">
@@ -161,7 +162,7 @@
             </div><!-- /.container-fluid -->
         </header>
     </div><!-- /.navbar-wrapper -->
-
+    <toaster-container></toaster-container>
     <div data-ng-view>
         @RenderBody()
     </div>
@@ -181,7 +182,7 @@
                                 <a href="cover-with-page-content.html">Be an Explorer!</a> &nbsp; | &nbsp;
                                 <a href="destinations.html">Destinations</a> &nbsp; | &nbsp;
                                 <a href="blog.html">Blog</a> &nbsp; | &nbsp;
-                                <a href="contact.html">Contact us</a>
+                                <a href="#/contact">Contact us</a>
                             </p>
                             <p style="font-size:14px; color: #999; margin-bottom:0;">
                                 <strong>An HTML travel template for destinations, guides, blogs, hotels, resorts, tours, vacations, events, and more for a perfect travel experience!</strong>

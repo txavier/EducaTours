@@ -4,7 +4,8 @@
     angular
         .module('app', [
             'ngRoute',
-            'angular-loading-bar'
+            'angular-loading-bar',
+            'toaster'
         ]);
 
 })();
