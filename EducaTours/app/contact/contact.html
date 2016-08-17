@@ -1,6 +1,6 @@
 ﻿<!-- Hero Section
 ================================================== -->
-<section class="hero large-hero" style="background-image:url('../../wwwroot/images/aruba/37_Bushiribana_Ruins (2)_1.jpg');">
+<section class="hero large-hero" style="background-image:url('wwwroot/images/aruba/37_Bushiribana_Ruins (2)_1.jpg');">
     <div class="bg-overlay">
         <div class="container">
             <div class="intro-wrap">
@@ -37,15 +37,15 @@
                             <form enctype="multipart/form-data" method="post" action="contact.html">
                                 <p>Fields marked with an <span class="text-warning">*</span> are required</p>
                                 <div class="form-group">
-                                    <input id="name_field" type="text" placeholder="Name *" class="form-control" value="" data-ng-click="vm.emailInformation.name">
+                                    <input id="name_field" type="text" placeholder="Name *" class="form-control" value="" data-ng-model="vm.emailInformation.name">
                                     <label for="name_field">Please enter your name.</label>
                                 </div>
                                 <div class="form-group">
-                                    <input id="email_field" type="text" placeholder="Email *" class="form-control" value="" data-ng-click="vm.emailInformation.address">
+                                    <input id="email_field" type="text" placeholder="Email *" class="form-control" value="" data-ng-model="vm.emailInformation.address">
                                     <label for="email_field">Please enter your email address.</label>
                                 </div>
                                 <div class="form-group">
-                                    <textarea placeholder="Message *" id="comment_field" class="form-control" rows="3" data-ng-click="vm.emailInformation.message"></textarea>
+                                    <textarea placeholder="Message *" id="comment_field" class="form-control" rows="3" data-ng-model="vm.emailInformation.message"></textarea>
                                     <label for="comment_field">Please enter your email address.</label>
                                 </div>
                                 <input type="button" class="display-block btn-primary" style="margin: 0 auto;" value="Send Message" data-ng-click="vm.sendMessage(vm.emailInformation)">

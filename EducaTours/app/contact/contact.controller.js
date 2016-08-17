@@ -3,9 +3,9 @@
         .module('app')
         .controller('contactController', contactController);
 
-    contactController.$inject = ['$scope', '$routeParams', 'dataService', 'toaster'];
+    contactController.$inject = ['$scope', '$routeParams', '$location', 'dataService', 'toaster'];
 
-    function contactController($scope, $routeParams, dataService, toaster) {
+    function contactController($scope, $routeParams, $location, dataService, toaster) {
         var vm = this;
 
         vm.sendMessage = sendMessage;

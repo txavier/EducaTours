@@ -15,7 +15,7 @@
     <AssemblyName>EducaTours</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -362,6 +362,19 @@
     <Content Include="wwwroot\css\owl-carousel.css" />
     <Content Include="wwwroot\fonts\fontawesome-webfont.svg" />
     <Content Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\images\aruba\105922_beach-baby-beach11_0.jpg" />
+    <Content Include="wwwroot\images\aruba\37_Bushiribana_Ruins %282%29_1.jpg" />
+    <Content Include="wwwroot\images\aruba\3963560941_663961e585_z.jpg" />
+    <Content Include="wwwroot\images\aruba\arashi-beach-03.jpg" />
+    <Content Include="wwwroot\images\aruba\ARUBA-california-lighthouse.jpg" />
+    <Content Include="wwwroot\images\aruba\Aruba_Palm_Beach.JPG" />
+    <Content Include="wwwroot\images\aruba\aruba__eagle_beach__2__by_isabellany-d6u9j83.jpg" />
+    <Content Include="wwwroot\images\aruba\Ayo.jpg" />
+    <Content Include="wwwroot\images\aruba\cave_IMG_3426.jpg" />
+    <Content Include="wwwroot\images\aruba\Centrum_Oranjestad.jpg" />
+    <Content Include="wwwroot\images\aruba\image49.jpg" />
+    <Content Include="wwwroot\images\aruba\sunset-over-the-beach.jpg" />
+    <Content Include="wwwroot\images\aruba\TheVillage_54_990x660_201404241128.jpg" />
     <Content Include="wwwroot\images\blog-1-600x800.jpg" />
     <Content Include="wwwroot\images\blog-10-600x800.jpg" />
     <Content Include="wwwroot\images\blog-11-600x800.jpg" />
@@ -1387,6 +1400,7 @@
     <Content Include="wwwroot\lib\angular-loading-bar\LICENSE" />
     <Content Include="wwwroot\lib\angular-loading-bar\package.json" />
     <Content Include="wwwroot\lib\angular-loading-bar\README.md" />
+    <None Include="Properties\PublishProfiles\educatoursaruba.com - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -1406,7 +1420,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>31917</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:31917/</IISUrl>
+          <IISUrl>http://localhost/EducaTours</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
