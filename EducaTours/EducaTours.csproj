@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -370,6 +371,8 @@
     <Content Include="wwwroot\images\aruba\20150402_110925.jpg" />
     <Content Include="wwwroot\images\aruba\20150402_110945.jpg" />
     <Content Include="wwwroot\images\aruba\20151224_134850.jpg" />
+    <Content Include="wwwroot\images\aruba\20200206_103639.jpg" />
+    <Content Include="wwwroot\images\aruba\20200206_104657.jpg" />
     <Content Include="wwwroot\images\aruba\37_Bushiribana_Ruins %282%29_1.jpg" />
     <Content Include="wwwroot\images\aruba\3963560941_663961e585_z.jpg" />
     <Content Include="wwwroot\images\aruba\arashi-beach-03.jpg" />
@@ -1407,7 +1410,9 @@
     <Content Include="wwwroot\lib\angular-loading-bar\LICENSE" />
     <Content Include="wwwroot\lib\angular-loading-bar\package.json" />
     <Content Include="wwwroot\lib\angular-loading-bar\README.md" />
+    <None Include="Properties\PublishProfiles\EducaToursAruba - smarterasp.pubxml" />
     <None Include="Properties\PublishProfiles\educatoursaruba.com - Web Deploy.pubxml" />
+    <Content Include="smtp.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

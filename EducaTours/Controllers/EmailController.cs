@@ -18,7 +18,7 @@ namespace EducaTours.Controllers
         {
             MailMessage message = new MailMessage();
 
-            message.From = new MailAddress("noreply45fda525-3925-40c4-894e-768d951ca270@45fda525-3925-40c4-894e-768d951ca270educatoursaruba45fda525-3925-40c4-894e-768d951ca270.45fda525-3925-40c4-894e-768d951ca270com".Replace("45fda525-3925-40c4-894e-768d951ca270", string.Empty));
+            message.From = new MailAddress("info45fda525-3925-40c4-894e-768d951ca270@45fda525-3925-40c4-894e-768d951ca270chillycloud45fda525-3925-40c4-894e-768d951ca270.45fda525-3925-40c4-894e-768d951ca270com".Replace("45fda525-3925-40c4-894e-768d951ca270", string.Empty));
 
 #if DEBUG
             message.To.Add(new MailAddress("txavier45fda525-3925-40c4-894e-768d951ca270@45fda525-3925-40c4-894e-768d951ca270gmail45fda525-3925-40c4-894e-768d951ca270.45fda525-3925-40c4-894e-768d951ca270com".Replace("45fda525-3925-40c4-894e-768d951ca270", string.Empty)));
